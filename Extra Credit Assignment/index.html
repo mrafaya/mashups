@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Currency Conversion API</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.dom.js"></script>
+    <script src="sketch.js"></script>
+
+    <style>
+      body {
+        background-color: rgb(243, 46, 7);
+        margin: 0;
+        overflow: hidden;
+        text-align: center;
+        font-family: sans-serif;
+        color: rgb(11, 92, 199);
+      }
+      div {
+        background-color: rgb(243, 46, 7);
+        padding: 20px;
+      }
+      #original {
+        position: fixed;
+        left: 25%;
+        top: 20%;
+      }
+      #target {
+        position: fixed;
+        top: 20%;
+        right: 30%;
+      }
+      #amount {
+        position: fixed;
+        top: 35%;
+        right: 45%;
+      }
+    </style>
+
+  </head>
+  <body>
+    <h1>Convert your currency!</h1>
+    <div id="original">
+      Original Currency
+    </div>
+    <div id="target">
+      Target Currency
+    </div>
+    <div id="amount">
+      Enter amount below
+    </div>
+  </body>
+</html>
